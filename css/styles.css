@@ -4,14 +4,33 @@
   * Change Background Color
   * Outline Elements
 */
+body{
+  background-image: url();
+}
+header h1{
+  display:flex;
+  justify-content:center;
+  font-family:"Agency FB";
+}
 main { 
   display: grid;
   grid-template-columns: 1fr;
+  justify-items:center;
+}
+.trailer{
+  width: 40%;
+}
+blockquote{
+  font-style:italic;
+  font-family: "AgencyFB";
 }
 
 .cast {  
   display: flex;
   flex-wrap: wrap;
+}
+.cast img{
+  width:5%;
 }
 /* custom UI controls */
 .plyr--full-ui input[type="range"]{
