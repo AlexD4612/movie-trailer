@@ -7,6 +7,6 @@ const player = new Plyr('#player', {
   keyboard : { focused: true, global: true },
   
   // Increase/Decrease seek time. Integer data type
-  seekTime : 15
+  seekTime : 15,
 
 });
