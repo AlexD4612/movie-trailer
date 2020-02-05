@@ -142,6 +142,7 @@ aside ul{
 footer{
   background-color: rgba(255, 255, 255, 0.507);
   margin: 0;
+  margin-bottom: 1em;
   padding: .1em;
   font-family: "Agency FB",sans-serif;
 }
@@ -157,14 +158,64 @@ footer{
   Mobile: 
   * 384px = 24em
 */
-@media only screen and (min-width: 0) { 
+@media only screen and (max-width: 480px) {
+  .trailer {
+    margin-top: 1em;
+    margin-right: 2em;
+  } 
+  blockquote {
+    font-size: 1em;
+
+  }
+  .title h2 {
+    font-family: "ToscaZero",Helvetica;
+    font-size: 1em;
+    margin-top: 1em;
+    color: rgb(0, 0, 0);
+  }
+  .plyr__poster {
+    background-color: #000;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity .2s ease;
+    width: 100%;
+    z-index: 1;
+  }
+  .info {
+    font-size: .7em;
+  }
+ 
     
 }
 
 /* Tablet:  
   * 768px = 48em 
 */
-@media only screen and (min-width: 24em)  {
+@media only screen and (max-width: 50em)  {
+  .trailer {
+    margin-top: 1em;
+    margin-right: 2em;
+  } 
+  blockquote {
+    font-size: 1em;
+
+  }
+  .title h2 {
+    font-family: "ToscaZero",Helvetica;
+    font-size: 1em;
+    margin-top: 1em;
+    color: rgb(0, 0, 0);
+  }
+ 
+  .info {
+    font-size: .7em;
+  }
     
 
 }
