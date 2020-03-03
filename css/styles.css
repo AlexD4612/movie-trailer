@@ -35,7 +35,6 @@ main {
 }
 
 .trailer{
-  margin-top: 8em;;
   width: 40%;
   opacity: 1;
 }
@@ -62,6 +61,10 @@ main {
   flex-direction: row;
   align-content: space-around;
   flex-wrap: wrap;
+}
+
+ img#max4{
+  opacity: .5;
 }
 
 
@@ -97,9 +100,9 @@ blockquote{
  
 }
 .cast img{
-  width: 50%;
-  height: 50%;
-  border-radius: 500px;
+  width: 45%;
+  height: 45%;
+  border-radius: 45%;
   padding: 0;
 }
 
@@ -118,14 +121,14 @@ figure h3,h4{
   background-color: rgba(255, 255, 255, 0.507);
 }
 
-figure.joe{
+figure.cast1{
   display: flex;
   justify-content: center;
   align-items: center;
   grid-column: 1;
 }
 
-figure.max{
+figure.cast2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +136,7 @@ figure.max{
   grid-column: 2;
 }
 
-figure.furi{
+figure.cast3{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,6 +161,8 @@ footer{
 .plyr--full-ui input[type="range"]{
   color:red;
 }
+
+
 
 
 /* Media Queries */
