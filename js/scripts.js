@@ -42,9 +42,9 @@ function change2(){ //Changes when Road Warrior is clicked
   document.querySelector("figure#cast1 h3").innerHTML="Mike Preston";
   document.querySelector("figure#cast3 h4").innerHTML="The Humungus";
   document.querySelector("figure#cast3 h3").innerHTML="Kjell Nilsson";
-  document.querySelector("figure#cast3 img").src ="https://m.media-amazon.com/images/M/MV5BYzAxOGMzYTMtMzRkYS00MDExLThlOTQtMjViMDMxZTBlYzY1XkEyXkFqcGdeQXVyNzQ1NjgzOTA@._V1_.jpg"
+  document.querySelector("figure#cast3 img").src ="https://patricksponaugle.files.wordpress.com/2015/09/road-warrior-3.png"
   document.querySelector("figure#cast2 img").src ="https://m.media-amazon.com/images/M/MV5BNmM3NDgxM2ItYWYwMi00OWZmLTk5ZGYtYjcwNDM4MDhmMzgzXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SY1000_CR0,0,856,1000_AL_.jpg"
-  document.querySelector("figure#cast1 img").src ="https://lh3.googleusercontent.com/proxy/3Db16xJZaLA-Yb7R7KqlJJ-j-kT-dKv0xYaLA0RGzktTRu3Js0EbkrqyC1rChkyn4SjHccuwJgGZblQDrXEzkH-bfDyLI09juuvDK1B-oagWfE8CIt505pCddxVZBbw"
+  document.querySelector("figure#cast1 img").src ="https://patricksponaugle.files.wordpress.com/2015/09/roadwarrior_063pyxurz.jpg?w=768&h=582"
   document.querySelector("#slogan").innerHTML="Ruthless... Savage... Spectacular"
   gsap.to("img#max1",{opacity:1,duration:.5});
   gsap.to("img#max2",{opacity:.5,duration:.5});
