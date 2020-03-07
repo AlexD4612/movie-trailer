@@ -16,8 +16,8 @@
   background-color: black;
   color: #d48118;
 }
-body{
-  background: url(../assets/3134.jpg) no-repeat center center fixed;
+html{
+  background: url(../assets/3134.jpg);
   background-size: 100%;
   margin-bottom: 0;
 }
