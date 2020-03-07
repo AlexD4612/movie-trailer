@@ -219,7 +219,7 @@ footer{
 /* Tablet:  
   * 768px = 48em 
 */
-@media only screen and (max-width: 50em)  {
+@media only screen and (min-width: 50em)  {
  
 
 }
@@ -241,45 +241,4 @@ footer{
 
 
 }
-
-
-
-
-@media only screen 
-  and (min-width: 0) 
-  and (max-width: 48em)  { 
-  
-  
-}
-
-/* Tablet:  
-  * 768px = 48em 
-    1023px = 63.9375em;
-*/
-@media only screen 
-  and (min-width: 48em) 
-  and (max-width: 64em)  {
-
-    
-}
-
-/* Desktop: 
-  * 1024px = 64em
-  * 64em and larger
-*/
-@media screen 
-  and (min-width: 64em) 
-  and (max-width: 90em) { 
-
-}
-
-/* Wide Desktop: 
-  * 1440px = 90em
-  * 90em and wider
-*/
-@media screen and (min-width: 90em) { 
-
-
-}
-
 
