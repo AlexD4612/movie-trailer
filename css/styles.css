@@ -179,11 +179,9 @@ footer{
     font-size: 1em;
 
   }
-  .title h2 {
-    font-family: "ToscaZero",Helvetica;
+  h2 .title {
     font-size: 1em;
     margin-top: 1em;
-    color: rgb(0, 0, 0);
   }
   .plyr__poster {
     background-color: #000;
