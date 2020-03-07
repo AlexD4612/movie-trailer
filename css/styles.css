@@ -220,25 +220,7 @@ footer{
   * 768px = 48em 
 */
 @media only screen and (max-width: 50em)  {
-  .trailer {
-    margin-top: 1em;
-    margin-right: 2em;
-  } 
-  blockquote {
-    font-size: 1em;
-
-  }
-  .title h2 {
-    font-family: "ToscaZero",Helvetica;
-    font-size: 1em;
-    margin-top: 1em;
-    color: rgb(0, 0, 0);
-  }
  
-  .info {
-    font-size: .7em;
-  }
-    
 
 }
 
@@ -267,12 +249,6 @@ footer{
   and (min-width: 0) 
   and (max-width: 48em)  { 
   
-    /*  Cast of movie */
-    .cast {
-      display: flex;
-      text-align: center;
-      justify-content: center;
-    }
   
 }
 
