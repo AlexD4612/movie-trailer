@@ -46,6 +46,7 @@ function change1(){ //Changes whe Mad Max is clicked
 };
   title.innerHTML="Mad Max";
   cast1Char.innerHTML="Toecutter";
+  cast1Actor.innerHTML="Hugh Keayes Byrne"
   cast3Char.innerHTML="Jessie Rockatansky";
   cast3Img.src ="https://previews.agefotostock.com/previewimage/medibigoff/ddced8c9498d13d2bfa1cfb52bb7f0f7/zuj-19790412-clg-g90-054.webp"
   cast2Img.src ="https://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2016/05/anglo_2000x1125_melgibson_madmax.jpg"
