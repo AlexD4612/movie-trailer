@@ -30,6 +30,7 @@ let cast1Actor = document.querySelector("figure#cast1 h3");
 let cast3Actor = document.querySelector("figure#cast3 h3");
 let tagline = document.querySelector("#slogan");
 let cast2Actor = document.querySelector("figure#cast2 h3");
+let info = document.querySelector(".info p");
 
 //Changes when Mad Max is clicked
 function change1() {
@@ -46,11 +47,13 @@ function change1() {
   cast1Char.innerHTML = "Toecutter";
   cast1Actor.innerHTML = "Hugh Keayes Byrne"
   cast3Char.innerHTML = "Jessie Rockatansky";
-  cast3Img.src = "https://previews.agefotostock.com/previewimage/medibigoff/ddced8c9498d13d2bfa1cfb52bb7f0f7/zuj-19790412-clg-g90-054.webp"
-  cast2Img.src = "https://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2016/05/anglo_2000x1125_melgibson_madmax.jpg"
-  cast1Img.src = "https://gamepedia.cursecdn.com/madmax_gamepedia/7/7e/Toecutterbw2.jpg"
+  cast3Img.src = "https://previews.agefotostock.com/previewimage/medibigoff/ddced8c9498d13d2bfa1cfb52bb7f0f7/zuj-19790412-clg-g90-054.webp";
+  cast2Img.src = "https://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2016/05/anglo_2000x1125_melgibson_madmax.jpg";
+  cast1Img.src = "https://gamepedia.cursecdn.com/madmax_gamepedia/7/7e/Toecutterbw2.jpg";
   cast3Actor.innerHTML = "Joanne Samuel";
   cast2Actor.innerHTML = "Mel Gibson";
+
+  info.innerHTML = "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.";
 
   gsap.to("img#max1", { opacity: .5, duration: .5 }); //Fade effect on currently selected
   gsap.to("img#max2", { opacity: 1, duration: .5 });
@@ -60,7 +63,7 @@ function change1() {
 
 //Changes when Road Warrior is clicked
 function change2() {
- 
+
   player.source = {
     type: 'video',
     sources: [
@@ -80,6 +83,9 @@ function change2() {
   cast2Img.src = "https://m.media-amazon.com/images/M/MV5BNmM3NDgxM2ItYWYwMi00OWZmLTk5ZGYtYjcwNDM4MDhmMzgzXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SY1000_CR0,0,856,1000_AL_.jpg"
   cast1Img.src = "https://patricksponaugle.files.wordpress.com/2015/09/roadwarrior_063pyxurz.jpg?w=768&h=582"
   tagline.innerHTML = "Ruthless... Savage... Spectacular"
+
+  info.innerHTML = "In the post-apocalyptic Australian wasteland, a cynical drifter agrees to help a small, gasoline rich community escape a horde of bandits. ";
+
   gsap.to("img#max1", { opacity: 1, duration: .5 });
   gsap.to("img#max2", { opacity: .5, duration: .5 });
   gsap.to("img#max3", { opacity: 1, duration: .5 });
@@ -88,7 +94,7 @@ function change2() {
 
 //Changes when Beyond Thunderdome is clicked
 function change3() {
- 
+
   player.source = {
     type: 'video',
     sources: [
@@ -98,7 +104,7 @@ function change3() {
       },
     ],
   };
-  
+
   title.innerHTML = "Mad Max Beyond Thunderdome";
   cast2Actor.innerHTML = "Mel Gibson";
   cast3Actor.innerHTML = "Tina turner";
@@ -109,6 +115,9 @@ function change3() {
   cast2Img.src = "https://i.pinimg.com/originals/76/3f/f4/763ff4ed6d966d122ed97f1cfe0d7486.jpg"
   cast3Img.src = "https://vignette.wikia.nocookie.net/villains/images/6/6f/Auntyentity.png/revision/latest/top-crop/width/360/height/450?cb=20100415171904"
   tagline.innerHTML = " Two men enter. One man leaves.";
+
+  info.innerHTML = "After being exiled from the most advanced town in post apocalyptic Australia, a drifter travels with a group of abandoned children to rebel against the town's queen.";
+
   gsap.to("img#max1", { opacity: 1, duration: .5 });
   gsap.to("img#max2", { opacity: 1, duration: .5 });
   gsap.to("img#max3", { opacity: .5, duration: .5 });
@@ -117,7 +126,7 @@ function change3() {
 
 //Changes when Fury Road clicked, this is default
 function change4() {
-  
+
   player.source = {
     type: 'video',
     sources: [
@@ -127,7 +136,7 @@ function change4() {
       },
     ],
   };
-  
+
   title.innerHTML = "Mad Max Fury Road";
   cast2Actor.innerHTML = "Tom Hardy";
   cast1Char.innerHTML = "Immortan Joe";
@@ -138,6 +147,9 @@ function change4() {
   cast2Img.src = "assets/madmax.jpg";
   cast3Img.src = "assets/furiosa.jpg";
   tagline.innerHTML = "The Future Belongs to the Mad";
+
+  info.innerHTML = "In the stark desert wasteland populated by a broken humanity driven with survival and the unending ravage forgasoline, a loner named Max finds himself unwantedly caught in the middle of a chase while aiding the heroine Furiosa and her female companions. She struggles to return to her homeland and escape the clutches of a ruthless desert gang leader, Immortan Joe. With the harsh desert sands in front of them and marauders behind, only the maddest will prevail the storm."
+
   gsap.to("img#max1", { opacity: 1, duration: .5 });
   gsap.to("img#max2", { opacity: 1, duration: .5 });
   gsap.to("img#max3", { opacity: 1, duration: .5 });
