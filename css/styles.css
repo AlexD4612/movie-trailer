@@ -34,7 +34,7 @@ main {
 
 }
 
-.trailer{
+ .trailer{
   width: 40%;
   opacity: 1;
 }
@@ -81,23 +81,16 @@ blockquote{
   font-family: "Agency FB",sans-serif;
   font-size: 1.2em;
   background-color: rgba(255, 255, 255, 0.507);
-}
-.info{
   padding-left: 1em;
   padding-right: 1em;
-
 }
+
 .title{
   text-align: center;
   font-family: "ToscaZero",Helvetica;
   font-size: 2.5em;
   margin-top: 1em;
   color: rgb(0, 0, 0);
-}
-.cast { 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
- 
 }
 .cast img{
   width: 45%;
@@ -121,7 +114,7 @@ figure h3,h4{
   background-color: rgba(255, 255, 255, 0.507);
 }
 
-figure.cast1{
+figure .cast1{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,32 +163,21 @@ footer{
   Mobile: 
   * 384px = 24em
 */
-@media only screen and (max-width: 750px) {
+@media only screen 
+  and (min-width: 0) 
+  and (max-width: 48em)  { 
   .trailer {
-    margin-top: 1em;
-    margin-right: 2em;
+    margin-right: 50px;
   } 
   blockquote {
     font-size: 1em;
 
   }
-  h2 .title {
+  .title {
     font-size: 1.1em;
+    white-space: nowrap;
   }
-  .plyr__poster {
-    background-color: #000;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    transition: opacity .2s ease;
-    width: 100%;
-    z-index: 1;
-  }
+  
   .info {
     font-size: .7em;
   }
@@ -212,33 +194,8 @@ footer{
   .movie{
     margin: 2em auto
   }
+  
+  
  
     
 }
-
-/* Tablet:  
-  * 768px = 48em 
-*/
-@media only screen and (min-width: 50em)  {
- 
-
-}
-
-/* Desktop: 
-  * 1152px = 72em
-*/
-@media screen and (min-width: 72em)  { 
-  
-
-
-}
-
-/* Wide Desktop: 
-  * 1440px = 90em
-*/
-@media screen and (min-width: 90em) { 
-  
-
-
-}
-
