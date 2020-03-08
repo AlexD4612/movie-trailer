@@ -8,14 +8,17 @@
 .plyr--video{
   border-radius: 1.5em;
 }
+
 .plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded="true"]{
   background:black;
   color: #d48118;
 }
+
 .plyr__control--overlaid{
   background-color: black;
   color: #d48118;
 }
+
 html{
   background: url(../assets/3134.jpg);
   background-size: 100%;
@@ -36,17 +39,10 @@ main {
 
  .trailer{
   width: 40%;
-  opacity: 1;
 }
 
 
 
-.second{
-  margin-bottom: 0;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
 
 .movie{
   width: 12em;
@@ -63,7 +59,7 @@ main {
   flex-wrap: wrap;
 }
 
- img#max4{
+ img#max4{  
   opacity: .5;
 }
 
@@ -74,6 +70,8 @@ blockquote{
   color: #e8d2cd;
   margin-bottom: 2em;
 }
+
+
 .info{
   margin-left:5em;
   margin-right: 5em;
@@ -113,6 +111,8 @@ figure{
   color: rgb(0, 0, 0);
   font-size: 1.5em;
 }
+
+
 figure h3,h4{
   margin:.5em .5em;
   background-color: rgba(255, 255, 255, 0.507);
@@ -140,12 +140,15 @@ figure.cast3{
   grid-column: 1;
   grid-column: 3;
 }
+
+
 aside ul{
   list-style-type: none;
   background-color: rgba(255, 255, 255, 0.507);
   padding:.5em;
   font-family: "Agency FB",sans-serif;
 }
+
 footer{
   background-color: rgba(255, 255, 255, 0.507);
   margin: 0;
