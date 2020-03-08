@@ -93,10 +93,14 @@ blockquote{
   color: rgb(0, 0, 0);
 }
 .cast img{
-  width: 45%;
-  height: 45%;
+  width: 80%;
+  height: 70%;
   border-radius: 45%;
   padding: 0;
+}
+
+.cast{
+  white-space: nowrap;
 }
 
 figure{
@@ -199,3 +203,30 @@ footer{
  
     
 }
+@media only screen 
+and (min-width: 48em) 
+and (max-width: 64em)  {
+
+    .cast{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .movie{
+      margin: 1em auto
+    }
+    
+
+
+
+  }
+
+  @media screen and (min-width: 64em) { 
+
+    .cast{
+      display: flex;
+      flex-direction: row;
+    }
+
+
+  }
